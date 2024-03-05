@@ -4,14 +4,15 @@ import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 let theme = createTheme({
   palette: {
     primary: {
-      main: '#232323',
+      main: '#ffffff',
     },
     secondary: {
-      main: '#4f8e3e',
+      main: '#000000',
     },
   },
   typography: {
-    fontFamily: "Segeo UI"
+    fontFamily: "Helvetica Neue",
+    //"Segeo UI"
   }
 });
 
